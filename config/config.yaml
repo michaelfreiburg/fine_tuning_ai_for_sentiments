@@ -1,0 +1,33 @@
+# paths and directories
+project_path: "/content/drive/MyDrive/github_projects/fine_tuning_ai_for_sentiments/"
+notebooks_dir: "notebooks/"
+data_raw_dir: "data/raw/"
+data_processed_dir: "data/processed/"
+data_results_dir: "data/results/"
+data_tensorboard_logs: "data/tensorboard_logs/"
+models_dir: "models/"
+
+# selected models
+test_data_eval_model1: "gpt-3.5-turbo"          # the first model which is evaluated
+test_data_eval_model2: "gpt-4-turbo-preview"    # the second model which is evaluated
+train_data_eval_model: "gpt-4-turbo-preview"    # the model which is used to classify train data
+
+# files and descriptions
+pickle_file_1: "forum_posts_raw_part_1.pickle"
+pickle_file_2: "forum_posts_raw_part_2.pickle"
+
+# other file names
+# forum_posts_all_initial.csv
+
+# forum_posts_without_100_test.csv      forum_posts_100_test.csv
+#                                       forum_posts_100_test_classification_by_human.csv
+#                                       forum_posts_100_test_classification_by_human_and_3_open_source_models.csv
+#                                       forum_posts_100_test_classification_by_human_and_3_open_source_models_and_2_GPT_models.csv
+
+# forum_posts_without_5000_train.csv    forum_posts_5000_train.csv
+#                                       forum_posts_5000_train_classification_by_GPT_model_checkpoint # will be generated in cases where the API calls are interrupted
+#                                       forum_posts_5000_train_classification_by_GPT_model_completed_raw.csv
+#                                       df_forum_posts_5000_train_classification_by_GPT_model_completed_invalid.csv
+#                                       df_forum_posts_5000_train_classification_by_GPT_model_completed_refined_valid.csv
+
+# fine_tuned_model_evaluations_with_test.csv      contains the metrics of the fine tuned model obtained with the test data
