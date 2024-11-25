@@ -26,16 +26,15 @@ From a technical perspective, the project focuses on fine-tuning and developing 
   - Delivered a fine-tuned open-source model with significantly improved sentiment analysis capabilities (positive, neutral, negative).
   - Provided a robust, scalable, cost-free sentiment analysis solution tailored for financial forum posts.
 
-      <p align="center">
-      <div style="display: inline-block; width: 40%; text-align: center; margin: 0 2%;">
-         <img src="data/results/confusion_matrix_hp_initial_model.jpg" alt="Confusion matrix of base model" width="100%">
-         <p style="margin-top: 5px;">Confusion matrix <br> of base model</p>
-      </div>
-      <div style="display: inline-block; width: 40%; text-align: center; margin: 0 2%;">
-         <img src="data/results/confusion_matrix_hp_set_15_lr1e-06_gracc1_bs32_te50_note_checkpoint-6250.jpg" alt="Confusion matrix of fine-tuned model" width="100%">
-         <p style="margin-top: 5px;">Confusion matrix <br> of fine-tuned model</p>
-      </div>
-      </p>
+   <p align="center">
+   <img src="data/results/confusion_matrix_hp_initial_model.jpg" alt="Confusion Matrix of Base Model" width="40%">
+   <br>Confusion Matrix of Base Model
+   </p>
+
+   <p align="center">
+   <img src="data/results/confusion_matrix_hp_set_15_lr1e-06_gracc1_bs32_te50_note_checkpoint-6250.jpg" alt="Confusion Matrix of Fine-Tuned Model" width="40%">
+   <br>Confusion Matrix of Fine-Tuned Model
+   </p>
 
 
 ## Future Work
