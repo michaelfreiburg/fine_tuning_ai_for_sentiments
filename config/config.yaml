@@ -7,10 +7,30 @@ data_results_dir: "data/results/"
 data_tensorboard_logs: "data/tensorboard_logs/"
 models_dir: "models/"
 
-# selected models
+# selected gpt models
 test_data_eval_model1: "gpt-3.5-turbo"          # the first model which is evaluated
 test_data_eval_model2: "gpt-4-turbo-preview"    # the second model which is evaluated
 train_data_eval_model: "gpt-4-turbo-preview"    # the model which is used to classify train data
+
+# hugging face models and revisions
+# - name: germansentiment
+#   type: pip
+#   version: "1.1.0"
+#   repository: null        # not applicable since it's pip-installed
+#   revision: null          # not applicable for pip-installed packages
+#   tokenizer: null         # tokenizer details are implicit
+
+# - name: bardsai/finance-sentiment-de-base
+#   type: huggingface
+#   repository: "bardsai/finance-sentiment-de-base"
+#   revision: "51b3d03f716eaa093dc42130f675839675a07b9a"
+#   tokenizer: "same as model"
+
+# - name: lxyuan/distilbert-base-multilingual-cased-sentiments-student
+#   type: huggingface
+#   repository: "lxyuan/distilbert-base-multilingual-cased-sentiments-student"
+#   revision: "2e33845d25b3ed0c8994ed53adb72566a1d39d79"
+#   tokenizer: "same as model"
 
 # files and descriptions
 pickle_file_1: "forum_posts_raw_part_1.pickle"

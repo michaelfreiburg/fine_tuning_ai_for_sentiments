@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-From a business perspective, financial forums offer valuable insights into investor sentiment, but extracting actionable information is challenging due to the unstructured nature of the data. This project addresses this gap by providing  a scalable, cost-efficient solution for sentiment analysis of forum posts, enabling investors to make data-driven decisions as part of their investment strategies.
+Financial forums offer valuable insights into investor sentiment, but extracting actionable information is challenging due to the unstructured nature of the data. This project addresses this gap by providing  a scalable, cost-efficient solution for sentiment analysis of forum posts, enabling investors to make data-driven decisions as part of their investment strategies.
 
 From a technical perspective, the project focuses on fine-tuning and developing a sentiment analysis model specifically tailored for financial forum posts. It demonstrates how to effectively combine open-source models with commercial AI solutions to achieve a cost-efficient and high-performing system. By leveraging advanced fine-tuning techniques, the project significantly enhances sentiment analysis capabilities while reducing dependency on costly APIs for large-scale applications.
 
