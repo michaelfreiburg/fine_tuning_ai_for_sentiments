@@ -26,16 +26,6 @@ The project focuses on fine-tuning and developing a sentiment analysis model spe
   - Delivered a fine-tuned open-source model with significantly improved sentiment analysis capabilities (positive, neutral, negative).
   - Provided a robust, scalable, cost-free sentiment analysis solution tailored for financial forum posts.
 
-   <p align="center">
-   <img src="data/results/confusion_matrix_hp_initial_model.jpg" alt="Confusion Matrix of Base Model" width="40%">
-   <br>Confusion Matrix of Base Model
-   </p>
-
-   <p align="center">
-   <img src="data/results/confusion_matrix_hp_set_15_lr1e-06_gracc1_bs32_te50_note_checkpoint-6250.jpg" alt="Confusion Matrix of Fine-Tuned Model" width="40%">
-   <br>Confusion Matrix of Fine-Tuned Model
-   </p>
-
 ## 🛠️ Getting Started in Google Colab 
 
 - **Step 1**: 
